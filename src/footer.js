@@ -8,7 +8,7 @@ function Footer() {
 		<Container fluid className={styles.foot}>
 			<p className={styles.fotext}>© Copyright 2020</p>
 			<p>
-				<a href="https://github.com/rishichourasia">
+				<a href="https://github.com/rishichourasia/cg-covid-tracker">
 					<p>
 						<img
 							src="/github.svg"

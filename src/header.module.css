@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+}
+  
+.navv{
+    
+    background: rgb(20, 68, 131);
+
+}
+.navb{
+    background: rgb(20, 68, 131);
+    
+}
+.navbarr{
+    
+    font-family: 'Kumbh Sans' !important;
+    font-weight: 700;
+    font-size: 1.4rem !important;
+    color: #fff !important; 
+     
+    
+}
+@media only screen and (max-width: 770px) {
+    .navbarr{
+    
+        font-family: 'Kumbh Sans' !important;
+        font-weight: 700;
+        font-size: 1.4rem !important;
+        color: #fff !important; 
+        padding-right: 4% !important; 
+        
+    }
+}

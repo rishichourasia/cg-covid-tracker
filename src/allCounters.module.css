@@ -1,0 +1,58 @@
+
+.allCount{
+    display: flex;
+    align-items: center;
+    justify-content: inline;
+    margin: 70px 0;
+    flex-direction: column;
+    
+    
+}
+#cardTitle{
+    font-family: 'Kumbh Sans' !important;
+    font-weight: 600 !important;
+}
+
+.infected{
+    border-left: 7px solid rgb(226, 7, 7) !important;
+    background-color: #ffcccc !important;
+    font-family: 'Kumbh Sans' !important;
+    font-weight: 600 !important;
+    
+}
+.active{
+    border-left: 7px solid rgb(36, 101, 221) !important;
+    background-color: #bac3ff !important;
+    font-family: 'Kumbh Sans' !important;
+}
+.recovered{
+    
+    border-left: 7px solid #0d690a !important;
+    background-color: #b5f1a7 !important;
+    font-family: 'Kumbh Sans' !important;
+}
+.deceased{
+    border-left: 7px solid rgb(70, 70, 64) !important;
+    background-color: #acacac !important;
+    font-family: 'Kumbh Sans' !important;
+}
+.countup{
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 5% ;
+    margin-bottom: 132px;
+    
+}
+@media only screen and (max-width: 770px){
+    .countup{
+        align-items: center;
+        justify-content: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 0 5% ;
+         margin-bottom: 50px;
+        
+    }
+}

@@ -1,0 +1,38 @@
+.foot{
+    background-color:  rgb(20, 68, 131);
+    padding-top: 1% ;
+    padding-bottom: 1%;
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.fotext{
+    color: #fff;
+    font-size: large;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    font-family: 'Kumbh Sans' !important;
+
+}
+.git{
+    font-size: 25px !important;
+    text-decoration: cornsilk !important;
+    color: #fff !important;
+}
+@media only screen and (max-width: 770px) {
+    .fotext{
+        color: #fff;
+        font-size: large;
+        margin-bottom: 10%;
+        padding-top: 10%;
+    
+    }
+    .git{
+        font-size: 25px !important;
+        text-decoration: cornsilk !important;
+        color: #fff !important;
+        padding-top: 2%;
+    }
+}

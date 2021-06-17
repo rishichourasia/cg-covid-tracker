@@ -21,7 +21,7 @@ const Mycard = styled(Card)({
 	border: 0,
 	borderRadius: 10,
 	boxShadow:
-		"12px 12px 24px 0px rgba(255, 105, 135, .3), -8px -8px 20px 0px #e6e6e6",
+		" 12px 12px 24px 0px rgb(39 39 39 / 30%), -8px -8px 20px 0px #e6e6e6",
 	color: "black",
 });
 const CardComponent = ({ className, cardTitle, value }) => (
